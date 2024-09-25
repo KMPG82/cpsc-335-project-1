@@ -1,17 +1,20 @@
+
+#algorithm created by: Kevin Ponting, 
+
+#segmenting: out of 5 cities, if you can get from city 4 by starting at city 1
+#you can assume that after getting to city 1 from another city i (that is not 1-4),
+#like city 5, then you can make it to city 4
 def circuit(fuel, city_distances, mpg):
     curret_fuel=0
     starting_city=0
     
     for i in range(len(city_distances)):
+        print("i:",i)
         curret_fuel += fuel[i] - (city_distances[i]/mpg)
         if curret_fuel < 0:
             curret_fuel = 0
             starting_city = i + 1
     return starting_city
-
-#segmenting the valid routes: out of 5 cities, if you can get from city 4 by starting at city 1
-#you can assume that after getting to city 1 from another city i (that is not 1-4), city 5 in
-#in this case, that you can make it to city 4 from city 1
 
 #test cases
 city_distances = [5, 25, 15, 10, 15]
