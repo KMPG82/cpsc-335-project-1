@@ -13,7 +13,7 @@ def minSwaps(row):
                     swaps+=1 #add one to swaps
                     break #found pair so end this loop
                 j+=1 #iterate to next element if the number at index j was not the corresponding pair    
-        elif row[i]%2!=0 and row[i+1]!=row[i]-1: #if number is not even and not already with its corresponding pair, then it is odd and the pair wil be -1 less
+        elif row[i]%2!=0 and row[i+1]!=row[i]-1: #if number is not even and not already with its corresponding pair, then it is odd and the pair will be -1 less
             j=i+2 #start from i+2 index of the list
             while j<len(row): #iterate through list to find corresponding pair
                 if row[j]==row[i]-1: #check if number at index j is the corresponding pair for number at index i
