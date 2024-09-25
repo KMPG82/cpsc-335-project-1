@@ -9,6 +9,10 @@ def circuit(fuel, city_distances, mpg):
             starting_city = i + 1
     return starting_city
 
+#segmenting the valid routes: out of 5 cities, if you can get from city 4 by starting at city 1
+#you can assume that after getting to city 1 from another city i (that is not 1-4), city 5 in
+#in this case, that you can make it to city 4 from city 1
+
 #test cases
 city_distances = [5, 25, 15, 10, 15]
 fuel = [1, 2, 1, 0, 3 ]
