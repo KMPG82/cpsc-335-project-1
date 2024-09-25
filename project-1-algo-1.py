@@ -1,6 +1,7 @@
 #algorithm created by: Kevin Ponting, 
 
 def minSwaps(row):
+    #initialize variables
     swaps=0
     i=0
     while i<len(row): #iterate for each 2n number in the list
