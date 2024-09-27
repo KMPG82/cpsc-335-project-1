@@ -1,5 +1,5 @@
 
-#algorithm created by: Kevin Ponting, 
+#algorithm created by: Kevin Ponting, Michael Do, 
 
 #segmenting: out of 5 cities, if you can get from city 3 by starting at city 0
 #you can assume that after getting to city 0 from another city i (that is not 1-3),
@@ -12,10 +12,11 @@ def circuit(fuel, city_distances, mpg):
     current_fuel=0
     starting_city=0
     for i in range(len(city_distances)): #iterate through each city in list
-        current_fuel += fuel[i] - (city_distances[i]/mpg) #add fuel available at current city and subtract the cost of fuel to get to next city
-        if current_fuel < 0: #fuel is negative, then we cannot make it to the next city, meaning the cities between the city we started at and the city we ended at would not be valid starting cities
-            current_fuel = 0 #reset fuel to 0
-            starting_city = i + 1 #make our starting city for the next run be the city at index i+1, the city we could not make it to
+        current_fuel+=fuel[i]-(city_distances[i]/mpg) #add fuel available at current city and subtract the cost of fuel to get to next city
+        if current_fuel<0: #fuel is negative, then we cannot make it to the next city, meaning the cities between the city we started at and the city we ended at would not be valid starting cities
+            current_fuel=0 #reset fuel to 0
+            starting_city=i+1 #make our starting city for the next run be the city at index i+1, the city we could not make it to
+    
     return starting_city #return the valid starting city
 
 #test cases
