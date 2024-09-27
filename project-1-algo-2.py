@@ -1,5 +1,5 @@
 
-#algorithm created by: Kevin Ponting, Michael Do, 
+#algorithm created by: Kevin Ponting, Michael Do, Joseph Bobby 
 
 #segmenting: out of 5 cities, if you can get from city 3 by starting at city 0
 #you can assume that after getting to city 0 from another city i (that is not 1-3),

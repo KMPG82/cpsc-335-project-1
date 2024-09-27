@@ -1,4 +1,4 @@
-#algorithm created by: Kevin Ponting, Michael Do, 
+#algorithm created by: Kevin Ponting, Michael Do, Joseph Bobby 
 
 def minSwaps(row):
     #initialize variables
