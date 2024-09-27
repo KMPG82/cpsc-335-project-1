@@ -20,37 +20,32 @@ def circuit(fuel, city_distances, mpg):
     return starting_city #return the valid starting city
 
 #test cases
-city_distances = [5, 25, 15, 10, 15]
-fuel = [1, 2, 1, 0, 3 ]
+#expected output: 4
+city_distances = [5,25,15,10,15]
+fuel = [1,2,1,0,3]
 mpg = 10
 print(circuit(fuel, city_distances, mpg))
 
+#expected output: 3
 city_distances = [3,4,5,1,2]
 fuel = [1,2,3,4,5]
 mpg = 1
 print(circuit(fuel, city_distances, mpg))
 
-city_distances = [3,4,3] 
-fuel = [5,3,4]
-mpg = 1
-print(circuit(fuel, city_distances, mpg))
-
-city_distances = [10, 20, 30, 10]
-fuel = [1, 0, 2, 5]
+#expected output: 3
+city_distances = [10,20,30,10]
+fuel = [1,0,2,5]
 mpg = 10
 print(circuit(fuel, city_distances, mpg))
 
-city_distances = [5, 10, 15, 5]
-fuel = [1, 2, 1, 3]
+#expected output: 3
+city_distances = [5,10,15,5]
+fuel = [1,2,1,3]
 mpg = 5
 print(circuit(fuel, city_distances, mpg))
 
-city_distances = [8, 12, 6, 10]
-fuel = [2, 0, 3, 5]
-mpg = 4
-print(circuit(fuel, city_distances, mpg))
-
-city_distances = [3,4,5,1,2]
-fuel = [1,2,3,4,5]
-mpg = 1
+#expected output: 4
+city_distances = [40,40,10,50,10]
+fuel = [5,1,2,3,4]
+mpg = 10
 print(circuit(fuel, city_distances, mpg))

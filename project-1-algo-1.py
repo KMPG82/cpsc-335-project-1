@@ -27,8 +27,10 @@ def minSwaps(row):
     return swaps #return minimum amount of swaps it took to pair each 2n number with their corresponding pair
 
 #test cases
+#expected output: 1
 row = [0,2,1,3]
 print(minSwaps(row))
 
+#expected output: 0
 row = [3,2,0,1]
 print(minSwaps(row))
