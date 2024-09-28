@@ -1,20 +1,34 @@
 How to Execute Program for Algorithm 1:
 
-1. Please download Python from https://www.python.org/downloads/ if not 
-   already installed.
+1. Install Python:
+   -Please download Python from https://www.python.org/downloads/ if not 
+    already installed.
 
-2. Open Visual Studio Code, click on extensions (on the left side bar),
-   type Python in the search box, and install the Python extension by 
-   Microsoft if not already installed.
+2. Set up Visual Studio Code:
+   -Open Visual Studio Code, click on extensions (on the left side bar).
 
-3. Open project-1-algo-1.py file.
+   -Type Python in the search box, and install the Python extension by 
+    Microsoft if not already installed.
 
-4. To run the program, click on the run button near the top left of the 
-   window. A terminal should pop up displaying the output of the program
-   with respect to the test cases we provided below the program.
+3. Open the Program:
+   -Open project-1-algo-1.py file in Visual Studio Code.
 
-5. To test the program using your own test cases, please scroll down until
-   you see our test cases section. Then using the same format at our test
-   cases, add your own test case.
+4. Run the Program:
+   -Hover over the play button (it should look like this: ▶) near the 
+    top right corner of the window. If it doesn't say "Run Python File", 
+    click on the arrow pointing down that is next to the play button and
+    a dropdown will appear. 
 
-6. Once added, click on the run button again.
+   -From the options the dropdown provides, click "Run Python File". 
+
+   -A terminal should pop up displaying the output of the program with 
+    respect to the provided input.
+
+5. Add Your Own Test Cases:
+   -To test the program using your own test cases, please scroll down until
+   you see our test cases section.
+
+   -Then using the same format as our test cases, add your own test case.
+
+6. Run Program with New Test Cases:
+   -Once added, click on the play button again to run the program.
